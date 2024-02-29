@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": [
+    "vite.config.*",
+    "./package.json"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ]
+  }
+}
