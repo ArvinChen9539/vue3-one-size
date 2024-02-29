@@ -1,8 +1,9 @@
 {
   "name": "vue3-one-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One size fits on all screens",
   "main": "dist/vue3-one-size.umd.js",
+  "homepage": "https://github.com/ArvinChen9539/vue3-one-size",
   "repository": "git@github.com:ArvinChen9539/vue3-one-size.git",
   "author": "ArvinChen9539",
   "license": "MIT",
@@ -24,6 +25,7 @@
     "gh-pages": "^1.0.0",
     "path": "^0.12.7",
     "prettier": "^3.2.5",
+    "pug": "^3.0.2",
     "tslib": "^2.6.2",
     "typescript": "^4.7.4",
     "vite": "^5.1.4",
@@ -32,11 +34,11 @@
   },
   "scripts": {
     "build": "vite build",
-    "build:example": "vite build --config example/vite.config.ts",
-    "preview:example": "vite preview --config example/vite.config.ts",
-    "dev": "vite --config example/vite.config.ts",
-    "deploy": "vite build && gh-pages -d example/dist",
-    "deploy:npm": "npm build && npm publish"
+    "build:example": "vite build --config example/vite.config.mts",
+    "preview:example": "vite preview --config example/vite.config.mts",
+    "dev": "vite --config example/vite.config.mts",
+    "deploy": "vite build --config example/vite.config.mts && gh-pages -d example/dist",
+    "deploy:npm": "npm run build && npm publish"
   },
   "volta": {
     "node": "16.14.2",

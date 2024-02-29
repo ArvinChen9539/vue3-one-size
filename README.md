@@ -1,5 +1,5 @@
 # vue3-one-size
-[![NPM version](https://img.shields.io/npm/v/vue3-one-size.svg?style=flat)](https://npmjs.com/package/vue-one-size) [![NPM downloads](https://img.shields.io/npm/dm/vue3-one-size.svg?style=flat)](https://npmjs.com/package/vue-one-size)
+[![NPM version](https://img.shields.io/npm/v/vue3-one-size.svg?style=flat)](https://npmjs.com/package/vue3-one-size) [![NPM downloads](https://img.shields.io/npm/dm/vue3-one-size.svg?style=flat)](https://npmjs.com/package/vue3-one-size)
 
 基于[vue-one-size](https://github.com/ROYL-Design/vue-one-size) 做 vue3重构
 
