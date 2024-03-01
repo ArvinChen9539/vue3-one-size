@@ -1,8 +1,9 @@
 {
   "name": "vue3-one-size",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "One size fits on all screens",
   "main": "dist/vue3-one-size.umd.js",
+  "types": "type/index.d.ts",
   "homepage": "https://github.com/ArvinChen9539/vue3-one-size",
   "repository": "git@github.com:ArvinChen9539/vue3-one-size.git",
   "author": "ArvinChen9539",
