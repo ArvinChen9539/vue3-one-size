@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-yarn add vue3-one-size
+pnpm add vue3-one-size
 ```
 
 ## Usage
@@ -23,12 +23,12 @@ use it locally:
 </template>
 
 <script>
-import OneSize from 'vue-one-size'
+import OneSizeContainer from 'vue-one-size'
 
 export default {
   ...
   components: {
-    OneSizeContainer: OneSize.container
+    OneSizeContainer
   }
 }
 </script>

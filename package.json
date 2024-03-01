@@ -1,6 +1,6 @@
 {
   "name": "vue3-one-size",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "One size fits on all screens",
   "main": "dist/vue3-one-size.umd.js",
   "types": "type/index.d.ts",
@@ -13,7 +13,8 @@
     "vue": "^3.4.21"
   },
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.7.2",
