@@ -1,6 +1,6 @@
 /**
  * name: vue3-one-size
- * version: v1.0.3
+ * version: v1.0.4
  * description: One size fits on all screens
  * author: ArvinChen9539
  * homepage: https://github.com/ArvinChen9539/vue3-one-size
