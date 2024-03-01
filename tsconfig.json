@@ -6,6 +6,9 @@
     "src/**/*.vue"
   ],
   "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationDir": "types",
     "baseUrl": ".",
     "paths": {
       "@/*": [

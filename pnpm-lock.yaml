@@ -1,7 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@rushstack/eslint-patch': ^1.7.2
   '@types/node': ^20.11.22
+  '@types/numeral': ^2.0.5
   '@vitejs/plugin-vue': ^5.0.4
   '@vue/eslint-config-prettier': ^9.0.0
   '@vue/eslint-config-typescript': ^12.0.0
@@ -25,7 +27,9 @@ dependencies:
   vue: 3.4.21_typescript@4.9.5
 
 devDependencies:
+  '@rushstack/eslint-patch': 1.7.2
   '@types/node': 20.11.22
+  '@types/numeral': 2.0.5
   '@vitejs/plugin-vue': 5.0.4_vite@5.1.4+vue@3.4.21
   '@vue/eslint-config-prettier': 9.0.0_mgor33v4u2pvs5m36tuva25tpy
   '@vue/eslint-config-typescript': 12.0.0_whxbnlf52cqavaxxik4sw3ld2q
@@ -474,6 +478,10 @@ packages:
     dev: true
     optional: true
 
+  /@rushstack/eslint-patch/1.7.2:
+    resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
+    dev: true
+
   /@types/estree/1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
@@ -486,6 +494,10 @@ packages:
     resolution: {integrity: sha512-/G+IxWxma6V3E+pqK1tSl2Fo1kl41pK1yeCyDsgkF9WlVAme4j5ISYM2zR11bgLFJGLN5sVK40T4RJNuiZbEjA==}
     dependencies:
       undici-types: 5.26.5
+    dev: true
+
+  /@types/numeral/2.0.5:
+    resolution: {integrity: sha512-kH8I7OSSwQu9DS9JYdFWbuvhVzvFRoCPCkGxNwoGgaPeDfEPJlcxNvEOypZhQ3XXHsGbfIuYcxcJxKUfJHnRfw==}
     dev: true
 
   /@types/semver/7.5.8:

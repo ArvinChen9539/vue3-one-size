@@ -1,6 +1,6 @@
 {
   "name": "vue3-one-size",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "One size fits on all screens",
   "main": "dist/vue3-one-size.umd.js",
   "homepage": "https://github.com/ArvinChen9539/vue3-one-size",
@@ -15,7 +15,9 @@
     "dist"
   ],
   "devDependencies": {
+    "@rushstack/eslint-patch": "^1.7.2",
     "@types/node": "^20.11.22",
+    "@types/numeral": "^2.0.5",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
@@ -33,7 +35,7 @@
     "vue-tsc": "^1.8.27"
   },
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && vue-tsc",
     "build:example": "vite build --config example/vite.config.mts",
     "preview:example": "vite preview --config example/vite.config.mts",
     "dev": "vite --config example/vite.config.mts",
